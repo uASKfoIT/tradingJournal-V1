@@ -1,0 +1,37 @@
+
+.general-button__style1{
+    height: 2rem;
+    width: 7rem;
+    border-radius: 0.5rem;
+    border: none;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.general-button__style1:hover{
+    background-color: rgba(235, 235, 235, 0.745);
+}
+
+/*--Blue + Green Button--*/
+.general-button__style1-gb{
+    height: 4.5rem;
+    width: 10rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: #36A9AE;
+    background-image: linear-gradient(#37ADB2, #329CA0);
+    box-shadow:1px 1px 3px rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    cursor: pointer;
+    /*border: 2px solid red;*/
+}
+.general-button__style1-gb p{
+    margin-top: 1rem;
+    font-size: medium;
+}
+.general-button__style1-gb:hover{
+    opacity: .65;
+}

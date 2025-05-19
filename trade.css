@@ -1,0 +1,276 @@
+/*--Entire Content--*/
+.tradecontent-container{
+    width: 90rem;
+    height: 100vh;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    justify-self: center;
+    /*border: 2px solid black;*/
+}
+
+/*--Trade Form--*/
+.trade-form__container{
+    height: 52rem;
+    width: 80rem;
+    margin-top: 0.5rem;
+    justify-self: center;
+    /*border: 2px solid blue;*/
+}
+.trade-form__row{
+    height: 21rem;
+    width: 80rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    justify-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    /*border: 1px solid blue;*/
+}
+.trade-form__row-box{
+    height: 26rem;
+    width: 36rem;
+    border-radius: 1rem;
+    background-color: #f9f9f9ea;
+    box-shadow:1px 1px 6px rgba(0, 0, 0, 0.5);
+    /*border: 1px solid green;*/
+}
+.trade-form__row-largebox{
+    height: 20rem;
+    width: 75rem;
+    border-radius: 1rem;
+    background-color: #f9f9f9ea;
+    box-shadow:1px 1px 6px rgba(0, 0, 0, 0.5);
+    /*border: 1px solid green;*/
+}
+.trade-form__inputfield{
+    height: 7rem;
+    width: 30rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /*border: 1px solid blue;*/
+}
+
+
+/*--trade selection--*/
+.trade-selection {
+    height: 4rem;
+    width: 26rem;
+    margin-left: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    /*border: 1px solid black;*/
+}
+.trade-selection__option, .trade-selection__stock {
+    height: 3.5rem;
+    width: 12rem;
+    text-align: center;
+    border: .2rem solid white;
+    cursor: pointer;
+}
+.trade-selection__option {
+    border-radius: 1rem;
+}
+.trade-selection__stock {
+    border-radius: 1rem;
+}
+.selected {
+    background-image: linear-gradient(#37ADB2, #329CA0);
+    color: white;
+}
+.unselected {
+    background-image: linear-gradient(#99f5f9, #99f5f9);
+    color: black;
+}
+
+
+/*--Stock Search & Information--*/
+.stock-searchbox{
+    height: 3.5rem;
+    width: 45rem;
+    margin-top: 1rem;
+    justify-self: center;
+    /*border: 1px solid blue;*/
+}
+.stock-searchbox input{
+    height: 3rem;
+    width: 40rem;
+    border: none; 
+    outline: none; 
+    border-radius: .5rem;
+    box-shadow:1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.stockinfo{
+    height: 15rem;
+    width: 40rem;
+    margin-left: 16.5rem;
+    justify-content: space-evenly;
+    display: none;
+    /*border: 2px solid black;*/
+}
+.stockinfo__box
+{
+    height: 13rem;
+    width: 13rem;
+    /*border: 2px solid red;*/
+}
+.stockinfo__box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+    box-shadow:1px 1px 2px rgba(0, 0, 0, 0.5)
+}
+
+.stock-suggestion{
+    height: 4rem;
+    width: 30rem;
+    margin-left: 16.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: small;
+    /*border: 1px solid purple;*/
+}
+.stock-suggestion__item {
+    height: 4rem;
+    width: 40rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    background-color: #f4fffd; /*#9cf5e6; /*white;*/
+    color:  #00463b;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stock-suggestion__item:hover{
+    background-color: #b9cecb; /* #d0fff7;*/
+    color: #ffffff;
+}
+
+
+/*--Call-Put Checkbox--*/
+.checkbox-container {
+    display: block;
+    position: relative;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 100;
+}
+.checkbox-label{
+    margin-left: 4rem;
+    font-weight: 100;
+}
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.check-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #eee;
+}  
+.checkbox-container:hover input ~ .check-box {
+    background-color: #ccc;
+}
+.checkbox-container input:checked ~ .check-box {
+    background-color: #2196F3;
+}
+
+/*--Button--*/
+.trade__button-container{
+    margin-right: 8rem;
+    display: flex;
+    height: 5rem;
+    width: 15rem;
+    justify-content: space-evenly;
+    justify-self: right;
+    /*border: 1px solid black;*/
+
+}
+.trade__general-button{
+    height: 4.5rem;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin-left: 5rem;
+    text-align: center;
+    background-color: #36A9AE;
+    background-image: linear-gradient(#37ADB2, #329CA0);
+    box-shadow:1px 1px 3px rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    cursor: pointer;
+    /*border: 2px solid red;*/
+}
+.trade__general-button p{
+    margin-top: 1rem;
+    font-size: medium;
+}
+.trade__general-button:hover{
+    opacity: .65;
+}
+.trade__hidden-submit{
+    display: none;
+}
+
+/*--Jquery Calenar--*/
+.ui-datepicker {
+    transform: scale(0.8); /* or 0.8, 0.85, etc. */
+    transform-origin: top left;
+}
+
+
+/*--Pattern Container--*/
+.note-label{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.pattern-container{
+    margin-top: 1rem;
+    height: 10rem;
+    width: 32rem;
+    border: 1px solid black;
+    justify-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pattern-selection{
+    height: 4rem;
+    width: 15rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pattern-selection:hover{
+    background-color: darkgrey;
+}
+
+.pattern-image{
+    height: 8rem;
+    width: 8rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.pattern-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: inherit;
+}
+

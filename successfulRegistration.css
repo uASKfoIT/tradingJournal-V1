@@ -1,0 +1,29 @@
+.header-content{
+    height: 3.5rem;
+    width: 100vw;
+    justify-self: center;
+    background-color: #40c1ab;
+    box-shadow: 0px 3px #888888;
+    border-radius: 1rem;
+}
+
+.message-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 7rem;
+    width: 30rem;
+    justify-self: center;
+    /*border: 1px solid black;*/
+}
+
+.button-container{
+    height: 10rem;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    /*border: 1px solid black;*/
+}

@@ -1,0 +1,43 @@
+/*---TEXT STYLES---*/
+/*TNR - White*/
+.TNR-medium__white{
+    font-size: medium;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.TNR-large__white{
+    font-size: large;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.TNR-xxlarge__white{
+    font-size: xx-large;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*TNR - Black*/
+.TNR-xxsmall__black{
+    font-size: xx-small;
+    color: rgb(90, 90, 90);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.TNR-small__black{
+    font-size: small;
+    color: rgb(90, 90, 90);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.TNR-large__black{
+    font-size: large;
+    color: rgb(90, 90, 90);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.TNR-xxlarge__black{
+    font-size: xx-large;
+    color: rgb(90, 90, 90);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}

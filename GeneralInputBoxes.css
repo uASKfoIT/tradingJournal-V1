@@ -1,0 +1,38 @@
+.inputBox__style1{
+    border: none; 
+    outline: none; 
+    border-radius: .5rem;
+    box-shadow:1px 1px 3px rgba(0, 0, 0, 0.5);
+    height: 4rem;
+    width: 30rem;
+    font-size: medium;
+    margin-bottom: 1.5rem;
+}
+
+.inputBox__style2{
+    border: none; 
+    outline: none; 
+    border-radius: .5rem;
+    box-shadow:1px 1px 3px rgba(0, 0, 0, 0.5);
+    height: 3rem;
+    width: 20rem;
+    font-size: medium;
+    margin-bottom: 1.5rem;
+}
+
+.note_container{
+    width: 32rem;
+    height: 5rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow:1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.note_container input[type="text"]
+{
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    vertical-align: top;
+    border: none;
+}

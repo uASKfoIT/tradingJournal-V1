@@ -1,0 +1,95 @@
+/*--Core Content--*/
+.core-content{
+    display: flex;
+    height: 63rem;
+    width: 130rem;
+    justify-self: center;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 2px solid black;*/
+}
+
+/*--Journal Container--*/
+.journal-container{
+    height: 60rem;
+    width: 85rem;
+    border-radius: 1rem;
+    background-color: #fefefe;
+    box-shadow:1px 1px 6px rgba(0, 0, 0, 0.5);
+    margin-left: 22rem;
+    /*border: 2px solid black;*/
+}
+.journal-container h1{
+    justify-self: center;
+}
+
+/*--Button Container--*/
+.button-container{
+    justify-self: center;
+    height: 10rem;
+    width: 40rem;
+    display: flex;
+    justify-content: space-evenly;
+    /*border: 1px solid black;*/
+}
+
+/*--Table Container--*/
+.table-container{
+    justify-self: center;
+    width: 80rem;
+    height: 40rem;
+    border: 1px solid black;
+}
+
+#trading-journal {
+    table-layout: fixed;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#trading-journal th{
+  text-align: left;
+  background-color: #686868;
+  color: white;
+}
+
+#trading-journal td, #trading-journal th {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+#trading-journal tr:nth-child(even){background-color: #f2f2f2;}
+#trading-journal tr:hover {background-color: #ddd;}
+
+
+
+/*--Side Menu--*/
+.sideMenu-container{
+    justify-self: right;
+    height: 50rem;
+    width: 20rem;
+    margin-bottom: 10rem;
+    /*border: 2px solid red;*/
+}
+.performance-button{
+    justify-self: right;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1rem;
+    background-color: #fefefe;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    overflow: hidden; /* Ensures no overflow issues */
+}
+.performance-button:hover{
+    opacity: .65;
+}
+.performance-button img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+
+
